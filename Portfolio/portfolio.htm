@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <style>
+        /* To display navigation pane */
+            .navbar{
+                float: left;
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 15%;
+                background-color: #e1d5d5a7;
+                height: 100%;
+                position: fixed;
+            }
+
+        /* To display block hyperlinks */
+            .btn{
+                color: black;
+                display: block;
+                padding: 5% 1.6%;
+                text-decoration: none;
+                text-align: center;
+                font-size: x-large;
+                font-style: Open Sans Condensed;
+            }             
+
+        /* To change color on hovering over the block */
+            .btn:hover{
+                background-color: #555;
+                color: white;
+            }
+
+            .content{
+                color: white;
+                float: center;
+                padding-left: 20%;
+            }
+
+            h1,h3{
+                text-align: center
+
+            }
+
+            .fl{
+                float: left;
+                padding-left: 10%;
+            }
+
+            .fr{
+                float: right;
+                padding-right: 10%;
+            }
+
+
+        /* Font styles */
+            .f1{
+                font-size: x-large;
+                text-align: justify;
+                padding-left: 40%;
+            }
+
+            .f2{
+                font-size: large;
+                text-align: justify;
+                padding-left: 40%;
+            } 
+            
+            .f3{
+                font-size: large;
+                text-align: justify;
+                padding-left: 12%;
+                padding-right: 12%;
+            }    
+
+            .f4{
+                font-size: large;
+                text-align: justify;
+                padding-left: 12%;
+                padding-right: 30%;
+
+            }
+
+        /* To change color of hyperlink */
+            .mail{
+                color: white;
+            }
+
+        /* To change its color on hovering over it */
+            .mail:hover{
+                color: rgba(242, 242, 223, 0.743);
+            }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <!-- Navigation Pane -->
+    <ul class="navbar">
+        <li><a href="#" class="btn">Home</a></li>
+        <li><a href="#Skills" class="btn">Skills</a></li>
+        <li><a href="#Projects" class="btn">Projects</a></li>
+        <li><a href="#About Me" class="btn">About Me</a></li>
+        <li><a href="#Contact Details" class="btn">Contact Details</a></li>
+        <li><a title="Should have given my pic but didnt have a good one, so have this cat instead"><img src="cat1.jpg" alt="cat" height="100%" width="100%"></a></li>
+        <li><img src="black.jpg" height="500px" width="100%"></li>
+    </ul>
+    
+
+    <div class="content">
+        <h1><font size="40">I'm Vizhal SU</font></h1>
+        <h3>A student of IITM </h3>
+        <img src="tiger.jpg" height="10%" width="100%"><br><br><br>
+
+        <h1 id="Skills">Skills</h1>
+        <img src="dog1.jpg" class="fl" width="18%">
+        <p class="f1">I am a</p>
+        <ul class="f2">
+            <li>Passionate and quick learner</li>
+            <li>Team player</li>
+            <li>Creative</li>
+            <li>Punctual</li>
+        </ul><br>
+        
+        <p class="f1">I am well versed in</p>
+        <ul class="f2">
+            <li>HTML+CSS</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>C Programming</li>
+        </ul>
+        <br><br><br>
+        
+
+
+
+
+        <h1 id="Projects">Projects</h1>
+        <img src="pen.png" class= "fr" width="30%">
+        <ul class="f3">
+            <li>A database for a pharmacy using Python and SQL</li>
+            <li>Snake game using Python</li>
+        </ul>
+        <br><br>
+        <img src="snake.png" class="fl" width="28%" padding-left="12%">
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <h1 id="About Me">About Me</h1>
+        <img src="lion.jpg" alt="cheetah" class="fr" width="20%">
+        <p class="f4">
+            I am Vizhal doing my undergraduate degree (BTech) in electrical engineering (2022-2026). 
+            I am a passionate, sincere and punctual person who cooperates well with team members.
+            I aspire to develop simple yet user-friendly websites.
+        </p>
+        <br><br><br><br><br><br>
+
+
+        <h1 id="Contact Details" style="padding-left: 32%;">Contact details</h1>
+        <p class="f3"><img src="loc.jpg" alt="Location" width="30px" height="35px" class="fl"> &nbsp; IIT Madras, Chennai,Tamil Nadu, India <br><br><br>
+            <img src="phone.png" alt="Mobile number" width="30px" height="30px" class="fl">&nbsp;8778866398 <br><br><br>
+            <a class="mail" href="mailto:ee22b044@smail.iitm.ac.in" ><img src="mail.png" alt="Mail ID" width="30px" height="30px" class="fl">&nbsp; ee22b044@smail.iitm.ac.in</a>
+        </p>
+        <br><br><br><br><br><br><br>
+        
+
+
+
+    </div>
+</body>
+</html>
