@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Google</title>
+      
+      <style>
+         /* To center the logo and text box */
+         .center{                         
+            text-align: center;
+            vertical-align: middle;
+         }
+
+         /* To modify the look of the text-box */
+         .ht{
+            border-radius: 25px;
+            height: 30px;
+            font-size: 16px;
+         }
+      </style>
+   </head>
+
+   <body>
+      <div class="center"> <br> <br> <br>
+         <img src="google-logo.png" alt="Google" width="30%"><br>
+         <input type="text" id="Input"  size="60%" class="ht"> <br><br>
+         <button onclick="search()" class="size"><font size=4px>Google Search</font></button>
+      </div>
+
+      <script>
+         function search() {
+         const term = document.getElementById("Input").value;
+            const url = `https://www.google.com/search?q=${term}`;
+         window.open(url, "_self");
+         }
+      </script>
+   </body>
+</html>
